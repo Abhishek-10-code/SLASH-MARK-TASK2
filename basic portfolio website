@@ -1,0 +1,179 @@
+Basic Portfolio Website for myself
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Kumar's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Abhishek Kumar</h1>
+            <p>Engineer | Web Developer | Blogger</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Abhishek Kumar, an engineer passionate about technology, web development, and blogging. I enjoy working on projects that solve real-world problems and sharing my knowledge through my blog and YouTube channel.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Automatic Light Control System</h3>
+            <p>A project that automates lighting using Arduino, sensors, and Bluetooth technology.</p>
+        </div>
+        <div class="project">
+            <h3>Weather Forecast Web Application</h3>
+            <p>A web app that checks the weather forecast using an API and displays data based on user location.</p>
+        </div>
+        <div class="project">
+            <h3>Blinking LED using Arduino</h3>
+            <p>A basic project where I learned to control an LED using Arduino programming.</p>
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <ul>
+            <li>Internship at CodTech IT Solutions</li>
+            <li>Workshop on Power BI by Skill Nation</li>
+            <li>6-week training in PLC Programming from SR Institute of Management and Technology</li>
+            <li>Project Leader in college and IEEE volunteer</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:abhishek@example.com">abhishek@example.com</a></p>
+        <p>Phone: +91 9305182116</p>
+        <p>Location: Srinagar Colony, Lucknow</p>
+        <h3>Social Media</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/abhishek-kumar" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/learnfixed" target="_blank">GitHub</a></li>
+            <li><a href="https://www.instagram.com/abhishek_kumar_professional" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/learnfixed" target="_blank">YouTube</a></li>
+            <li><a href="https://www.learnfixed.com" target="_blank">Blog</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abhishek Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+CSS Code:
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #333;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
