@@ -92,4 +92,4 @@ If you have any questions or want to connect, you can reach me at:
 Thank you for visiting my portfolio website repository!
 ```
 
-This `README.md` file provides a clear overview of your project, instructions for installation and usage, and ways for others to contribute or contact you.
+
